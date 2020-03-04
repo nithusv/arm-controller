@@ -2,7 +2,10 @@ import requests
 import easygui
 import sys,os
 
-URL = "http://yoururl.com" #use 127.0.0.1:8000 for localhost
+
+#use 127.0.0.1:8000 for localhost
+
+URL = "http://yoururl.com" 
 
 
 
