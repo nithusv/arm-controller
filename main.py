@@ -2,7 +2,7 @@ import requests
 import easygui
 import sys,os
 
-URL = "http://nithusv.pythonanywhere.com"
+URL = "http://yoururl.com" #use 127.0.0.1:8000 for localhost
 
 
 
