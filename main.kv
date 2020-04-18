@@ -1,0 +1,55 @@
+<MyGrid>:
+
+    uid : uid
+    passwd : passwd
+    result : result
+
+
+
+    GridLayout:
+        cols:1
+        size: root.width-200, root.height-200
+        pos: 100,100
+
+        GridLayout:
+            cols:1
+            Label:
+                text:"Administration"
+
+        
+        GridLayout:
+            cols:2
+
+            Label:
+                text: "Username : "
+
+            TextInput:
+                id: uid
+                multiline: False
+
+            Label:
+                text: "Password : "
+
+            TextInput:
+                id:passwd
+                multiline: False
+                password: True
+
+            Label:
+                text: " "
+
+            
+
+        
+    
+        Button:
+            text: "Login"
+            on_press: root.btn()
+
+
+        GridLayout:
+            cols:1
+            Label:
+                id:result
+                text: " "
+            
