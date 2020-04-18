@@ -1,3 +1,5 @@
+#rename it as main.py while using
+
 import requests
 from kivy.app import App
 from kivy.uix.label import Label
