@@ -18,8 +18,8 @@ def obtain_token():
     if(passwd== None):
         sys.exit(0)
 
-    print(user)
-    print(passwd)
+    #print(user)
+    #print(passwd)
 
     
 
